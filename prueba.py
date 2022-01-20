@@ -10,3 +10,4 @@ BUCKET = "https://streamlit-self-driving.s3-us-west-2.amazonaws.com/"
 data = read_and_cache_csv(BUCKET + "labels.csv.gz", nrows=1000)
 desired_label = st.selectbox('Filter to:', ['car', 'truck'])
 st.write(data[data.label == desired_label])
+print(data)
