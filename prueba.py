@@ -15,5 +15,5 @@ desired_label = st.selectbox('Filter to:', ['car', 'truck'])
 st.write(data[data.label == desired_label])
 
 
-data2 = read_and_cache_csv("RobertoAfi/FinResp/Tabla")
+data2 = read_and_cache_csv("RobertoAfi/FinResp/Tabla.xlsx")
 st.write(data2)
