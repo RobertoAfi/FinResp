@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("./FinResp/Tabla.csv")
+df = pd.read_xlsx("./FinResp/Tabla.xlsx")
 
 st.title('Repositorio FinResp')
 
