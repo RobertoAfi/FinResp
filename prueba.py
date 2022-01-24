@@ -3,7 +3,7 @@ import pandas as pd
 
 bonos='C:\Users\rksalto\Desktop\Roberto Knop Salto/Tabla.xlsx'
 
- df1=pd.read_excel(bonos,sheet_name='Hoja1')
+df1=pd.read_excel(bonos,sheet_name='Hoja1')
 
 st.title('Repositorio FinResp')
 
