@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import json
-import xlrd
 from pandas import ExcelWriter
 from pandas import ExcelFile
 
