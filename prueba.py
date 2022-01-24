@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.write('Repositorio FinResp')
+st.title('Repositorio FinResp')
 
 x = st.slider('x')
 st.write(x, 'squared is', x * x)
@@ -14,6 +14,3 @@ data = read_and_cache_csv(BUCKET + "labels.csv.gz", nrows=1000)
 desired_label = st.selectbox('Filter to:', ['car', 'truck'])
 st.write(data[data.label == desired_label])
 
-
-data2 = read_and_cache_csv("RobertoAfi/FinResp/Tabla.xlsx")
-st.write(data2)
