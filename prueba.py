@@ -1,13 +1,5 @@
 import streamlit as st
 import pandas as pd
-import json
-import xlrd
-from pandas import ExcelWriter
-from pandas import ExcelFile
-
-hoja_calculo_df = pd.read_excel("Tabla.xlsx")
-
-st.write(hoja_calculo_df)
 
 st.title('Repositorio FinResp')
 
