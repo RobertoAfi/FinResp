@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import xlrd
 
-# Open the file
-wb = xlrd.open_workbook('Tabla.xlsx')
+hoja_calculo_df = pd.read_excel('Tabla.xlsx', sheet_name='Hoja1')
+
+print(hoja_calculo_df)
 
 st.title('Repositorio FinResp')
 
