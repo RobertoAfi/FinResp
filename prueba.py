@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-hoja_calculo_df = pd.read_excel('Tabla.xlsx', sheet_name='Hoja1')
+hoja_calculo_df = pd.read_excel("Tabla.xlsx", sheet_name='Hoja1')
 
 print(hoja_calculo_df)
 
