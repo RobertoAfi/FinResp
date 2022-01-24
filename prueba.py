@@ -4,7 +4,7 @@ import pandas as pd
 
 st.title('Repositorio FinResp')
 
-df = pd.read_excel("Tabla.xlxs")
+df = pd.read_excel("Tabla.xlsx")
 
 x = st.slider('x')
 st.write(x, 'squared is', x * x)
