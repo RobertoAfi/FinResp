@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
+import xlrd
 
-bonos='C:\Users\rksalto\Desktop\Roberto Knop Salto/Tabla.xlsx'
-
-df1=pd.read_excel(bonos,sheet_name='Hoja1')
+# Open the file
+wb = xlrd.open_workbook('Tabla.xlsx')
 
 st.title('Repositorio FinResp')
 
